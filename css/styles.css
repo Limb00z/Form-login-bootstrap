@@ -6,7 +6,7 @@ body{
     background-color: #FFF;
     border-radius: 20px;
     box-shadow: .5px 10px 15px rgba(0, 0, 0, .2);
-    margin: 400px auto;
+    margin: 100px auto;
     padding: 25px;
 }
 
@@ -52,14 +52,36 @@ body{
     border-color: #6c63ff;
 }
 
+.btn.btn-primary{
+    width: 100%;
+}
+
 .row.align-items-center{
     align-items: center;
     height: 100%;
     padding: 75px 0;
 }
 
+.col-md-6.order-md-1{
+    padding-top: 50px;
+}
+
 #link-container{
     text-align: center;
     padding-top: 50px;
 
+}
+
+
+@media (min-width: 768px){
+    #form-container{
+        margin: 70px  auto;
+        padding: 50px;
+    }
+    .btn.btn-primary{
+        width: auto;
+    }
+    .col-md-6.order-md-1{
+        padding-top: 0px;
+    } 
 }
